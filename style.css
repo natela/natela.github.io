@@ -1,0 +1,17 @@
+body {
+  margin: 30px 20px;
+  font-size: 18px;
+  background-color: #fcfcfc;
+}
+h1 {
+  color: #6a95b7;
+}
+a {
+  text-decoration: none;
+  color: #ff5722;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+  color: #FF8A65;
+}
