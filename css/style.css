@@ -1,14 +1,26 @@
-body{
+body {
   font-family: 'Noto Sans', sans-serif;
   background-color: #fcfcfc;
   padding: 10px 30px;
 }
-ul{
+ul {
   list-style-type: square;
 }
-.code{
+.list-none {
+  list-style-type: none;
+}
+.li-name {
+  font-weight: bold;
+}
+.code, pre {
   font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
   font-weight: bold;
   color: #FF5722;
   font-size: 1.2em;
+}
+#tag-types {
+  text-decoration: underline;
+}
+a[target="_blank"] {
+  color: #109684;
 }

@@ -13,7 +13,7 @@
         font-family: Noto Sans;
         src: url(./fonts/Noto_Sans/NotoSans-Regular.ttf);
       }
-      h2{
+      h2 {
         color: #5E8DB2;
       }
     </style>
@@ -32,6 +32,8 @@
         способы их отображения, отступы,
         <span style="color: #0F9206;">цвет текста</span>, создают анимацию и многое другое.
         <br>
+        <a href="http://htmlbook.ru/css" target="_blank">список свойств CSS</a>
+        <br>
         CSS-свойства можно задавать несколькими способами:
         <ul>
           <li>в атрибуте style HTML-тега</li>
@@ -46,15 +48,68 @@
     <div>
       <p>
         Правила CSS объединяют в себе набор свойств и выглядят так:<br>
-        <pre class="code">
-          селектор {
-            свойство1: значение;
-            свойство2: значение;
+        <pre>
+          селектор, селектор... {
+            свойство: значение;
+            свойство: значение;
+            ...
           }
         </pre>
       </p>
       <p>
+        Селекторы бывают разных видов и определяют, для каких элементов определить описанные свойства.<br>
+        <a href="http://htmlbook.ru/metki/selektory" target="_blank">список селекторов CSS</a><br>
+        <span id="tag-types">Виды селекторов</span>:
+        <ul class="list-none">
+          <li>
+            <span class="li-name">Универсальный селектор</span> - устанавливает стиль для всех элементов страницы.
+            <pre>
+              * {
+                ...
+              }
+            </pre>
+          </li>
+          <li>
+            <span class="li-name">Селектор тегов</span> - устанавливает стиль для всех тегов с заданным именем.
+            <pre>
+              h2 {
+                color: #5E8DB2;
+              }
+            </pre>
+          </li>
+          <li>
+            <span class="li-name">Селектор классов</span> - устанавливает стиль для всех тегов с заданным классом.
+            Класс тега задается с помощью атрибута <span class="code">class</span>.
+            <pre>
+              .code {
+                font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+                font-weight: bold;
+                color: #FF5722;
+                font-size: 1.2em;
+              }
 
+
+              &lt;span class="code"&gt;class&lt;/span&gt;
+            </pre>
+          </li>
+          <li>
+            <span class="li-name">Селектор идентификаторов</span> - устанавливает стиль для всех тегов с заданным идентификатором.
+            Идентификатор тега задается с помощью атрибута  <span class="code">id</span>.
+            <pre>
+              #tag-types {
+                text-decoration: underline;
+              }
+            </pre>
+          </li>
+          <li>
+            <span class="li-name">Селектор атрибутов</span> - устанавливает стиль для всех тегов с определенным значением указанного атрибута.
+            <pre>
+              a[target="_blank"] {
+                color: #109684;
+              }
+            </pre>
+          </li>
+        </ul>
       </p>
     </div>
     <!--Отступы в css-->
