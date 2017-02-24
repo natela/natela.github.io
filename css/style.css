@@ -9,18 +9,30 @@ ul {
 .list-none {
   list-style-type: none;
 }
-.li-name {
-  font-weight: bold;
-}
-.code, pre {
+.code, .tag, pre {
   font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
   font-weight: bold;
   color: #FF5722;
   font-size: 1.2em;
+}
+.tag::before {
+  content: "<";
+}
+.tag::after {
+  content: ">";
 }
 #tag-types {
   text-decoration: underline;
 }
 a[target="_blank"] {
   color: #109684;
+}
+a:hover {
+  color: #5ADAC9;
+}
+ul.list-none span {
+  font-weight: bold;
+}
+ul.list-none>li::first-letter {
+  color: #5E8DB2;
 }
