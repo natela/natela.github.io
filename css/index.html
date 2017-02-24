@@ -129,7 +129,7 @@
             являющихся прямыми потомками тега <span class="tag">ul</span></span>
             с классом <span class="code">list-none</span> установлен цвет текста для первой буквы.
             <pre>
-              ul.list-none>li::first-letter {
+              ul.list-none > li::first-letter {
                 color: #5E8DB2;
               }
             </pre>
@@ -147,7 +147,7 @@
             <span>Селектор псевдоэлементов</span> - устанавливает стиль элементов, отсутствующих в дереве документа.
             Например, можно определить стиль первой буквы содержимого элемента или дописать контент до или после содержимого элемента.
             <pre>
-              ul.list-none>li::first-letter {
+              ul.list-none > li::first-letter {
                 color: #5E8DB2;
               }
               .tag::before {
@@ -160,6 +160,67 @@
           </li>
         </ul>
       </p>
+    </div>
+    <h2>Отступы и границы</h2>
+    <div class="parent-offset">
+      С помощью CSS можно задавать отступы для элементов, для этой цели существует несколько CSS-свойств.
+      <div class="child-offset">
+        <ul>
+          <li>
+            свойство <span class="code">margin</span> -
+            устанавливает величину отступа от каждого края элемента до внутреней границы его родительского элемента.
+          </li>
+          <li>
+            свойство <span class="code">padding</span> -
+            устанавливает отступ вокруг сожержимого элемента.
+          </li>
+          <li>
+            свойство <span class="code">text-indent</span>
+            устанавливает отступ красной строки.
+          </li>
+        </ul>
+      </div>
+      <div class="child-offset border-ex">
+        Значения свойств <span class="code">margin</span> и <span class="code">padding</span> можно задавать несколькими способами:
+        <ol>
+          <li><span class="code">margin: 20px</span> и <span class="code">padding: 20px</span> задает одинаковые отступы во всех сторон</li>
+          <li>
+            <span class="code">margin: 10px 20px</span> и <span class="code">padding: 10px 20px</span>
+            задает отступы сверху и снизу (10px) и справа и слева (20px)
+          </li>
+          <li>
+            <span class="code">margin: 10px 20px 15px</span> и <span class="code">padding: 10px 20px 15px</span>
+            задает отступы сверху (10px), справа и слева (20px) и снизу (15px)
+          </li>
+          <li>
+            можно задавать отступы для каждого края отдельно с помощью свойств<br>
+            <span class="code">margin-left</span>, <span class="code">margin-riht</span>,
+            <span class="code">margin-bottom</span>, <span class="code">margin-top</span>,<br>
+            <span class="code">padding-left</span>, <span class="code">padding-riht</span>,
+            <span class="code">padding-bottom</span>, <span class="code">padding-top</span>
+          </li>
+        </ol>
+        <p>
+          Если требуется заключить элемент в рамку, используют свойство <span class="code">border</span>.<br>
+          Значение этого свойства складывается из трех параметров: ширины границы, ее стиля и цвета. Например,
+          <span class="code">border: 2px solid #5E8DB2;</span> означает, что ширина границы: 2 пиксель, она сплошная и синего (#5E8DB2) цвета.<br>
+          Все эти параметры можно задать отдельно, используя свойства <span class="code">border-width</span>,
+          <span class="code">border-style</span>, <span class="code">border-color</span>.
+        </p>
+        <p>
+          Чтобы скруглить углы границы используют свойство <span class="code">border-radius</span>.
+          Примеры использования:<br>
+          <div class="border-radius-ex" style="border-radius: 50%;"></div>
+          <div class="border-radius-ex" style="border-radius: 15px;"></div>
+          <div class="border-radius-ex" style="border-radius: 5px 15px;"></div>
+          <div class="border-radius-ex" style="border-radius: 5px 15px 30px;"></div>
+          <div class="border-radius-ex" style="border-radius: 0 5px 15px 30px;"></div>
+        </p>
+      </div>
+    </div>
+    <h2>Позиционирование элементов</h2>
+    <div>
+
     </div>
     <!--Отступы в css-->
   </body>
