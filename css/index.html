@@ -5,21 +5,58 @@
     <meta property="og:title" content="Шпаргалка по CSS"/>
     <meta property="og:description" content="Основные свойства CSS и примеры их использования, таблицы стилей, селекторы и т.д."/>
     <meta property="og:image" content="./src/CSS.png">
-    <link rel="icon" type="image/x-icon" href="./src/favicon.ico">
     <title>Разработка front-end: таблицы стилей</title>
+    <link rel="icon" type="image/x-icon" href="./src/favicon.ico">
     <link rel="stylesheet" href="./style.css">
-    <style></style>
+    <style>
+      @font-face {
+        font-family: Noto Sans;
+        src: url(./fonts/Noto_Sans/NotoSans-Regular.ttf);
+      }
+      h2{
+        color: #5E8DB2;
+      }
+    </style>
   </head>
   <body>
-    <h2>Каскадные таблицы стилей: CSS</h2>
+    <h1 style="color: #1A5D92;">Каскадные таблицы стилей: CSS</h1>
     <p>
       Каскадные таблицы стилей описывают внешний вид документа, написанного с помощью языка разметки (HTML).
     </p>
-    <!--
-      размер шрифта,
-    -->
-    <!--Как можно реализовать на css то, что делается на HTML-->
+    <h2>CSS-свойства</h2>
+    <div>
+      <p>
+        С помощью CSS-свойств задают внешний вид страницы:
+        <span style="font-size: 12px;">размер шрифта</span>,
+        <span style="font-style: italic;">его начертание</span>, размеры блоков,
+        способы их отображения, отступы,
+        <span style="color: #0F9206;">цвет текста</span>, создают анимацию и многое другое.
+        <br>
+        CSS-свойства можно задавать несколькими способами:
+        <ul>
+          <li>в атрибуте style HTML-тега</li>
+          <li>с помощью правил внутри тега &lt;style&gt;</li>
+          <li>с помощью правил в подключенном файле с разрешением *.css</li>
+        </ul>
+        CSS-свойства задаются таким образом: <span class="code">свойство: значение;</span><br>
+        Правила хорошего тона предписывают нам НЕ задавать CSS-свойства с помощью атрибута &lt;style&gt; без необходимости.
+      </p>
+    </div>
+    <h2>CSS-правила и селекторы</h2>
+    <div>
+      <p>
+        Правила CSS объединяют в себе набор свойств и выглядят так:<br>
+        <pre class="code">
+          селектор {
+            свойство1: значение;
+            свойство2: значение;
+          }
+        </pre>
+      </p>
+      <p>
 
+      </p>
+    </div>
     <!--Отступы в css-->
   </body>
 </html>

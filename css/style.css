@@ -1,0 +1,14 @@
+body{
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #fcfcfc;
+  padding: 10px 30px;
+}
+ul{
+  list-style-type: square;
+}
+.code{
+  font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+  font-weight: bold;
+  color: #FF5722;
+  font-size: 1.2em;
+}
