@@ -27,7 +27,7 @@ ul {
 a[target="_blank"] {
   color: #109684;
 }
-a:hover {
+a[target="_blank"]:hover {
   color: #5ADAC9;
 }
 ul.list-none span {
