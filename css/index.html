@@ -5,20 +5,161 @@
     <meta property="og:title" content="Шпаргалка по CSS"/>
     <meta property="og:description" content="Основные свойства CSS и примеры их использования, таблицы стилей, селекторы и т.д."/>
     <meta property="og:image" content="./src/CSS.png">
+    <title>Разработка front-end: каскадные таблицы стилей CSS</title>
     <link rel="icon" type="image/x-icon" href="./src/favicon.ico">
-    <title>Разработка front-end: таблицы стилей</title>
-    <style></style>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      @font-face {
+        font-family: Noto Sans;
+        src: url(./fonts/Noto_Sans/NotoSans-Regular.ttf);
+      }
+      h2 {
+        color: #5E8DB2;
+      }
+    </style>
   </head>
   <body>
-    <h2>Каскадные таблицы стилей: CSS</h2>
+    <h1 style="color: #1A5D92;">Каскадные таблицы стилей: CSS</h1>
     <p>
       Каскадные таблицы стилей описывают внешний вид документа, написанного с помощью языка разметки (HTML).
     </p>
-    <!--
-      размер шрифта,
-    -->
-    <!--Как можно реализовать на css то, что делается на HTML-->
+    <h2>CSS-свойства</h2>
+    <div>
+      <p>
+        С помощью CSS-свойств задают внешний вид страницы:
+        <span style="font-size: 12px;">размер шрифта</span>,
+        <span style="font-style: italic;">его начертание</span>, размеры блоков,
+        способы их отображения, отступы,
+        <span style="color: #0F9206;">цвет текста</span>, создают анимацию и многое другое.
+        <br>
+        <a href="http://htmlbook.ru/css" target="_blank">список свойств CSS</a>
+        <br>
+        CSS-свойства можно задавать несколькими способами:
+        <ul>
+          <li>в атрибуте style HTML-тега</li>
+          <li>с помощью правил внутри тега <span class="tag">style</span></li>
+          <li>с помощью правил в подключенном файле с разрешением *.css</li>
+        </ul>
+        CSS-свойства задаются таким образом: <span class="code">свойство: значение;</span><br>
+        Правила хорошего тона предписывают нам НЕ задавать CSS-свойства с помощью атрибута <span class="tag">style</span> без необходимости.
+      </p>
+    </div>
+    <h2>CSS-правила и селекторы</h2>
+    <div>
+      <p>
+        Правила CSS объединяют в себе набор свойств и выглядят так:<br>
+        <pre>
+          селектор, селектор... {
+            свойство: значение;
+            свойство: значение;
+            ...
+          }
+        </pre>
+      </p>
+      <p>
+        Селекторы бывают разных видов и определяют, для каких элементов определить описанные свойства.<br>
+        <a href="http://htmlbook.ru/metki/selektory" target="_blank">список селекторов CSS</a><br>
+        <span id="tag-types">Основные виды селекторов</span>:
+        <ul class="list-none">
+          <li>
+            <span>Универсальный селектор</span> - устанавливает стиль для всех элементов страницы.
+            <pre>
+              * {
+                ...
+              }
+            </pre>
+          </li>
+          <li>
+            <span>Селектор тегов</span> - устанавливает стиль для всех тегов с заданным именем.<br>
+            В примере для всех тегов <span class="tag">h2</span> задан цвет текста.
+            <pre>
+              h2 {
+                color: #5E8DB2;
+              }
+            </pre>
+          </li>
+          <li>
+            <span>Селектор классов</span> - устанавливает стиль для всех тегов с заданным классом.<br>
+            Класс тега задается с помощью атрибута <span class="code">class</span>.
+            <pre>
+              .code {
+                font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+                font-weight: bold;
+                color: #FF5722;
+                font-size: 1.2em;
+              }
 
-    <!--Отступы в css-->
+
+              <span class="tag">span class="code"</span>class<span class="tag">/span</span>
+            </pre>
+          </li>
+          <li>
+            <span>Селектор идентификаторов</span> - устанавливает стиль для всех тегов с заданным идентификатором.<br>
+            Идентификатор тега задается с помощью атрибута  <span class="code">id</span>.
+            <pre>
+              #tag-types {
+                text-decoration: underline;
+              }
+            </pre>
+          </li>
+          <li>
+            <span>Селектор атрибутов</span> - устанавливает стиль для всех тегов с определенным значением указанного атрибута.<br>
+            В примере для всех тегов <span class="tag">a</span></span>
+            с атрибутом <span class="code">target="_blank"</span> устанавливается цвет текста.
+            <pre>
+              a[target="_blank"] {
+                color: #109684;
+              }
+            </pre>
+          </li>
+          <li>
+            <span>Селектор потомков</span> - устанавливает стиль для всех элементов, являющимися потомками заданного элемента независимо от вложенности.<br>
+            В примере: для всех тегов <span class="tag">span</span></span>,
+            являющихся потомками тега <span class="tag">ul</span></span>
+            с классом <span class="code">list-none</span> установлен жирный шрифт.
+            <pre>
+              ul.list-none span {
+                font-weight: bold;
+              }
+            </pre>
+          </li>
+          <li>
+            <span>Селектор дочерних элементов</span> - устанавливает стиль для всех элементов, являющимися прямыми потомками заданного элемента.<br>
+            В примере: для всех тегов <span class="tag">li</span></span>,
+            являющихся прямыми потомками тега <span class="tag">ul</span></span>
+            с классом <span class="code">list-none</span> установлен цвет текста для первой буквы.
+            <pre>
+              ul.list-none > li::first-letter {
+                color: #5E8DB2;
+              }
+            </pre>
+          </li>
+          <li>
+            <span>Селектор псевдоклассов</span> - устанавливает стиль для различных состояний элементов,
+            например, для ссылки при наведении на нее курсора.
+            <pre>
+              a:hover {
+                color: #5ADAC9;
+              }
+            </pre>
+          </li>
+          <li>
+            <span>Селектор псевдоэлементов</span> - устанавливает стиль элементов, отсутствующих в дереве документа.
+            Например, можно определить стиль первой буквы содержимого элемента или дописать контент до или после содержимого элемента.
+            <pre>
+              ul.list-none > li::first-letter {
+                color: #5E8DB2;
+              }
+              .tag::before {
+                content: "<";
+              }
+              .tag::after {
+                content: ">";
+              }
+            </pre>
+          </li>
+        </ul>
+      </p>
+    </div>
   </body>
 </html>
