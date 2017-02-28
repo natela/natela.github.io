@@ -6,6 +6,13 @@ body {
 ul {
   list-style-type: square;
 }
+table, td {
+  border-collapse: collapse;
+  border: 1px solid #5E8DB2;
+}
+td {
+  padding: 5px 10px;
+}
 .list-none {
   list-style-type: none;
 }
@@ -14,6 +21,9 @@ ul {
   font-weight: bold;
   color: #FF5722;
   font-size: 18px;
+}
+.code, .tag {
+  white-space: nowrap;
 }
 .tag::before {
   content: "<";
@@ -62,12 +72,51 @@ ul.list-none > li::first-letter {
    display: inline-block;
    margin: 5px 10px 0;
 }
-.display-block{
+.display-block {
   display: block;
 }
-.display-inline{
+.display-inline {
   display: inline;
 }
-.display-none{
+.display-none {
   display: none;
+}
+.cascade-ex {
+  color: #FF5722;
+}
+#cascade-id {
+  color: #5ADAC9
+}
+#cascade-id.cascade-ex {
+  color: #08A50D;
+}
+.float-ex img {
+  width: 50%;
+  margin-bottom: 10px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+#beach {
+  float: left;
+  margin-right: 10px;
+}
+#turtle {
+  float: right;
+  margin-left: 10px;
+}
+#fox {
+  float: none;
+}
+.text-right {
+  text-align: right;
+}
+.clear-left {
+  clear: left;
+}
+.clear-right {
+  clear: left;
+}
+.clear-both {
+  clear: both;
 }
