@@ -21,9 +21,7 @@ td {
   font-weight: bold;
   color: #FF5722;
   font-size: 18px;
-}
-.code, .tag {
-  white-space: nowrap;
+  white-space: pre-wrap;
 }
 .tag::before {
   content: "<";
