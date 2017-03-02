@@ -1,37 +1,40 @@
+/* Селекторы тегов */
 body {
-  font-family: 'Noto Sans', sans-serif;
-  background-color: #fcfcfc;
-  padding: 10px 30px;
+  font-family: 'Noto Sans', sans-serif; /* семейство шрифта */
+  background-color: #fcfcfc; /* фоновый цвет элемента */
+  padding: 10px 30px; /* внутренние отступы элемента */
 }
 ul {
-  list-style-type: square;
+  list-style-type: square; /* внешний вид маркера в списке */
 }
 table, td {
-  border-collapse: collapse;
-  border: 1px solid #5E8DB2;
+  border-collapse: collapse; /* стиль отображения границ ячеек таблицы */
+  border: 1px solid #5E8DB2; /* ширина, стиль и цвет границ элемента,
+                                можно задавать все 3 параметра отдельно с помощьб свойств
+                                border-width, border-style и border-color */
 }
 td {
   padding: 5px 10px;
 }
-.list-none {
-  list-style-type: none;
-}
+
+/* Листинги */
 .code, .tag, pre {
   font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
-  font-weight: bold;
-  color: #FF5722;
-  font-size: 18px;
-  white-space: pre-wrap;
+  font-weight: bold; /* устанавливает насыщенность шрифта */
+  color: #FF5722; /* цвет текста */
+  font-size: 18px; /* размер шрифта */
+  white-space: pre-wrap; /* стиль отображения пробелов между словами */
 }
+
+/* Обрамление текста элемента в угловые скобки с помощью псевдоэлементов */
 .tag::before {
-  content: "<";
+  content: "<"; /* содержание элемента */
 }
 .tag::after {
   content: ">";
 }
-#tag-types {
-  text-decoration: underline;
-}
+
+/* Оформление ссылок с помощью селекторов атрибутов и псевдоклассов */
 a[target="_blank"] {
   color: #109684;
 }
@@ -41,38 +44,52 @@ a[target="_blank"]:hover {
 a[target="_blank"]:visited {
   color: #9900ff;
 }
+
+/* Пример использования селектора идентификаторов */
+#tag-types {
+  text-decoration: underline; /* оформление текста */
+}
+
+/* Оформление списка без маркеров */
+.list-none {
+  list-style-type: none;
+}
 ul.list-none span {
   font-weight: bold;
 }
 ul.list-none > li::first-letter {
   color: #5E8DB2;
 }
+
+/* Пример использования отступов и границ */
 .parent-offset {
   background-color: #6A95B7;
   padding: 20px;
   border: 2px solid #FF5722;
-  border-radius: 6px;
+  border-radius: 6px; /* степень скругления границ элемента */
 }
 .child-offset {
-  margin: 30px;
+  margin: 30px; /* внешние отступы элемента */
   background-color: #fcfcfc;
   border: 2px solid #FF5722;
   border-radius: 6px;
 }
 .border-ex {
   margin: 30px;
-  text-indent: 20px;
+  text-indent: 20px; /* отступ красной строки */
   border: 2px solid #FF5722;
   border-radius: 6px;
   padding: 15px 10px;
 }
 .border-radius-ex {
-   width: 70px;
-   height: 70px;
+   width: 70px; /* ширина элемента */
+   height: 70px; /* высота элемента */
    border: 2px solid #5E8DB2;
-   display: inline-block;
+   display: inline-block; /* способ отображения элемента на странице */
    margin: 5px 10px 0;
 }
+
+/* Пример использования свойства display */
 .display-block {
   display: block;
 }
@@ -82,6 +99,7 @@ ul.list-none > li::first-letter {
 .display-none {
   display: none;
 }
+/* Пример использования специфичности селекторов */
 .cascade-ex {
   color: #FF5722;
 }
@@ -91,15 +109,17 @@ ul.list-none > li::first-letter {
 #cascade-id.cascade-ex {
   color: #08A50D;
 }
+
+/* Пример использования обтекания элементов */
 .float-ex img {
   width: 50%;
   margin-bottom: 10px;
   height: 150px;
-  object-fit: cover;
-  object-position: center;
+  object-fit: cover; /* способ встраивания содержимого в элемент */
+  object-position: center; /* способ размещения содержимого в элементе */
 }
 #beach {
-  float: left;
+  float: left; /* задает выравнивание элемента */
   margin-right: 10px;
 }
 #turtle {
@@ -110,10 +130,10 @@ ul.list-none > li::first-letter {
   float: none;
 }
 .text-right {
-  text-align: right;
+  text-align: right; /* выравнивание текста */
 }
 .clear-left {
-  clear: left;
+  clear: left; /* отмена выравнивания элемента */
 }
 .clear-right {
   clear: left;
