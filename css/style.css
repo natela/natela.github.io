@@ -133,8 +133,18 @@ ul.list-none > li::first-letter {
   font-weight: bold;
   border-radius: 12px;
   border: 1px solid #5E8DB2;
+   /* эффект перехода между состояниями элемента */
+  -webkit-transition: all 1s ease-out 0.1s;
+     -moz-transition: all 1s ease-out 0.1s;
+       -o-transition: all 1s ease-out 0.1s;
+          transition: all 1s ease-out 0.1s;
 }
-.back-btn:before {
+.back-btn:hover {
+  background-color: #C2D9EB;
+  border-color: #97B4CB;
+  color: #1A5D92;
+}
+.back-btn::before {
   content: '\2B05';
   padding-right: 5px;
 }
