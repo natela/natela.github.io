@@ -141,3 +141,22 @@ ul.list-none > li::first-letter {
 .clear-both {
   clear: both;
 }
+
+/* Кнопка наверх */
+.btn-up {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  padding: 5px 15px;
+  opacity: 0.5;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color:  #5E8DB2;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  color: #1A5D92;;
+}
+.btn-up:hover {
+  opacity: 1;
+}
