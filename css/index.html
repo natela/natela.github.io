@@ -393,7 +393,7 @@
         </p>
       </div>
     </div>
-    
+
     <h2>Позиционирование элементов</h2>
     <div>
       <p>
@@ -427,11 +427,96 @@
       </div>
     </div>
 
+    <h2>Визуальные эффекты</h2>
+    <div>
+      С помощью CSS можно создавать множество визуальных эффектов.
+      Рассмотрим некоторые из них.
+      <ul class="list-none">
+        <li>
+          <span>Степень прозрачности элемента</span> задается свойством <span class="code">opacity</span>.
+          Это свойство принимает значения от 0 до 1, где 0 - полностью прозрачный элемент, а 1 - непрозрачный.
+          Примером может служить кнопка "наверх".
+        </li>
+        <li>
+          <span>Эффект перехода между состояниями элемента</span> задается свойством <span class="code">transition</span>.
+          Пример: при наведении на кнопку "наверх", у нее медленно меняется значение свойства <span class="code">opacity</span>.
+        </li>
+        <li>
+          <span>Масштабирование изображений</span> задается свойством <span class="code">object-fit</span>.
+          Это свойство может принимать значения:
+          <div class="object-fit-ex">
+            <p>
+              <span class="code">fill</span> (элемент целиком умещается в заданные размеры, пропорции игнорируются)
+              <br><br>
+              <img src="img/photo-1473101167633-bfa08e705e4b.jpg" style="object-fit: fill"/>
+              <img src="img/photo-1488742286505-cce1f9344f51.jpg" style="object-fit: fill"/>
+            </p>
+            <p>
+              <span class="code">contain</span> (элемент целиком умещается в заданные размеры с соблюдением пропорций)
+              <br><br>
+              <img src="img/photo-1473101167633-bfa08e705e4b.jpg" style="object-fit: contain"/>
+              <img src="img/photo-1488742286505-cce1f9344f51.jpg" style="object-fit: contain"/>
+            </p>
+            <p>
+              <span class="code">cover</span> (элемент увеличивается или уменьшается, чтобы целиком заполнить заданную область с сохранением пропорций)
+              <br><br>
+              <img src="img/photo-1473101167633-bfa08e705e4b.jpg" style="object-fit: cover"/>
+              <img src="img/photo-1488742286505-cce1f9344f51.jpg" style="object-fit: cover"/>
+            </p>
+            <p>
+              <span class="code">none</span> (cохраняются исходные пропорции элемента, значения ширины или высоты не влияют на содержимое)
+              <br><br>
+              <img src="img/photo-1473101167633-bfa08e705e4b.jpg" style="object-fit: none"/>
+              <img src="img/photo-1488742286505-cce1f9344f51.jpg" style="object-fit: none"/>
+            </p>
+          </div>
+          Положение изображения задается с помощью свойства <span class="code">object-position</span>.
+          <a href="#parrot">Пример использования свойства</a>.
+        </li>
+        <li>
+          <span>Тень к тексту и элементу</span>. Тень к тексту добавляется с помощью свойства <span class="code">text-shadow</span>,
+          тень к элементу - с помощью свойства <span class="code">box-shadow</span>.
+          <br>
+          Оба свойства задаются таким образом: <span class="code"><сдвиг по x> <сдвиг по y> <радиус размытия> <цвет></span>.
+          <a href="#parrot">Пример использования свойства</a>.
+        </li>
+      </ul>
+    </div>
 
-    <!--визуальные элементы: тени, анимация...-->
-    <!--префиксы moz o ...-->
-    <!--media-query -->
-    <!--object-fit-->
+    <h2>Медиа-запросы</h2>
+    <div>
+      Для поддержки различных технических параметров устройств используются медиа-запросы.
+      Такие запросы начинаются с правила <span class="code">@media</span> с указанием условия,
+      при котором будут применяться указанные стили.
+      <br>
+      Такими условиями могут быть:
+      <ul>
+        <li>
+          тип носителя, например, <span class="code">projection</span>, <span class="code">screen</span>,
+          <span class="code">print</span> и другие.<br>
+          Пример использования:
+          <p id="screen-only" class="hide-text">Эта надпись выводится только при отбражнии на экранах мониторов.</p>
+          <p id="print-only" class="hide-text">Эта надпись выводится только при печати.</p>
+          <p id="projection-only" class="hide-text">Эта надпись выводится только при отбражнии на проекторе.</p>
+        </li>
+        <li>
+          ширина экрана: для создания адаптивного дизайна.
+          Можно указать предельные значения размера экрана для исползуемых стилей, например:
+          <br>
+          <div class="gallery">
+            <img src="img/photo-1460400408855-36abd76648b9.jpg"/>
+            <img src="img/photo-1472070855221-4dff400df492.jpg"/>
+            <img src="img/photo-1474490061654-a538332683d2.jpg"/>
+            <img src="img/photo-1486578997922-e098aa917fc6.jpg"/>
+          </div>
+        </li>
+      </ul>
+      В условиях могут находиться логические операторы, такие  как:
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+
     <a class="btn-up" href="#">
       наверх
     </a>
