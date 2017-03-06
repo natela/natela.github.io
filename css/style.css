@@ -142,21 +142,48 @@ ul.list-none > li::first-letter {
   clear: both;
 }
 
+.position-ex {
+  position: relative;
+  width: auto;
+  display: inline-block;
+}
+.position-ex h3 {
+  position: absolute;
+  left: 0;
+  top: 90px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.position-ex img {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 50% 0%;
+  box-shadow: 0 0 3px #000, 0 0 8px #000;
+}
+
 /* Кнопка наверх */
 .btn-up {
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
+  position: fixed; /* способ позиционирования элемента */
+  right: 30px; /* позиционирование относительно правого края */
+  bottom: 30px; /* позиционирование относительно нижнего края */
   padding: 5px 15px;
-  opacity: 0.5;
+  opacity: 0.5; /* степень прозрачности элемента */
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   background-color:  #5E8DB2;
   border: 1px solid #ccc;
-  cursor: pointer;
-  color: #1A5D92;;
+  cursor: pointer; /* вид курсора при наведении */
+  color: #1A5D92;
+  border-radius: 3px;
+  -webkit-transition: all 0.5s ease-out 0.1s;
+     -moz-transition: all 0.5s ease-out 0.1s;
+       -o-transition: all 0.5s ease-out 0.1s;
+          transition: all 0.5s ease-out 0.1s;
 }
 .btn-up:hover {
-  opacity: 1;
+  opacity: 1; /* степень прозрачности элемента */
 }
