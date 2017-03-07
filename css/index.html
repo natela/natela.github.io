@@ -162,5 +162,375 @@
         </ul>
       </p>
     </div>
+    <h2>Каскадирование</h2>
+    <div>
+      <p>
+        Каскад в CSS - это одновременное применение различных стилей к элементам документа.
+        Для того, чтобы при отображении страниц не возникало конфликтов, существуют приоритеты, которыми пользуются браузеры при отображении страниц.
+        Список составлен от меншего приоритета к большему.
+        <ol>
+          <li>Стиль браузера: оформление, по умолчанию применяющееся браузером к страницам.</li>
+          <li>Стиль автора: стили, прописанные разработчиком.</li>
+          <li>Стиль пользователя: стили, написанные самим пользователем.</li>
+          <li>Стиль автора с добавлением !important</li>
+          <li>Стиль пользователя с добавлением !important</li>
+        </ol>
+        Ключевое слово <span class="code">!important</span> повышает приоритет приоритет свойства, для которого указано.
+        Разработчику чаще всего можно обойтись без примерения <span class="code">!important</span>.
+      </p>
+      <p>
+        На приоритет также оказывает влияние специфичность слектора, которая вычисляется по следующеу правилу.
+        <table>
+          <tr>
+            <td>Универсальный селектор (*)</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>Селектор тега и псевдоэлемента</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>Селектор класса и псевдокласса</td>
+            <td>10</td>
+          </tr>
+          <tr>
+            <td>Селектор идентификатора</td>
+            <td>100</td>
+          </tr>
+          <tr>
+            <td>Стиль через атрибут <span class="code">style</span></td>
+            <td>1000</td>
+          </tr>
+        </table>
+        <p class="cascade-ex" id="cascade-id" style="color: #5E8DB2">
+          Для каждого правила вычисляется сумма и устанавливается приоритет (чем больше сумма, тем выше приоритет).
+          Этот абзац является примером использования каскадирования.
+        </p>
+        <p>
+          Если в документе объявлено несколько правил с одинаковыми селекторами, то применится то, которое описано ниже.
+        </p>
+      </p>
+    </div>
+
+    <h2>Отступы и границы</h2>
+    <div class="parent-offset">
+      С помощью CSS можно задавать отступы для элементов, для этой цели существует несколько CSS-свойств.
+      <div class="child-offset">
+        <ul>
+          <li>
+            свойство <span class="code">margin</span> -
+            устанавливает величину отступа от каждого края элемента до внутреней границы его родительского элемента.
+          </li>
+          <li>
+            свойство <span class="code">padding</span> -
+            устанавливает отступ вокруг сожержимого элемента.
+          </li>
+          <li>
+            свойство <span class="code">text-indent</span>
+            устанавливает отступ красной строки.
+          </li>
+        </ul>
+      </div>
+      <div class="child-offset border-ex">
+        Значения свойств <span class="code">margin</span> и <span class="code">padding</span> можно задавать несколькими способами:
+        <ol>
+          <li><span class="code">margin: 20px</span> и <span class="code">padding: 20px</span> задает одинаковые отступы во всех сторон</li>
+          <li>
+            <span class="code">margin: 10px 20px</span> и <span class="code">padding: 10px 20px</span>
+            задает отступы сверху и снизу (10px) и справа и слева (20px)
+          </li>
+          <li>
+            <span class="code">margin: 10px 20px 15px</span> и <span class="code">padding: 10px 20px 15px</span>
+            задает отступы сверху (10px), справа и слева (20px) и снизу (15px)
+          </li>
+          <li>
+            можно задавать отступы для каждого края отдельно с помощью свойств<br>
+            <span class="code">margin-left</span>, <span class="code">margin-riht</span>,
+            <span class="code">margin-bottom</span>, <span class="code">margin-top</span>,<br>
+            <span class="code">padding-left</span>, <span class="code">padding-riht</span>,
+            <span class="code">padding-bottom</span>, <span class="code">padding-top</span>
+          </li>
+        </ol>
+        <p>
+          Если требуется заключить элемент в рамку, используют свойство <span class="code">border</span>.<br>
+          Значение этого свойства складывается из трех параметров: ширины границы, ее стиля и цвета. Например,
+          <span class="code">border: 2px solid #5E8DB2;</span> означает, что ширина границы: 2 пикселя, она сплошная и синего (#5E8DB2) цвета.<br>
+          Все эти параметры можно задать отдельно, используя свойства <span class="code">border-width</span>,
+          <span class="code">border-style</span>, <span class="code">border-color</span>.
+        </p>
+        <p id="inline-block-elements">
+          Чтобы скруглить углы границы используют свойство <span class="code">border-radius</span>.
+          Примеры использования:<br>
+          <div class="border-radius-ex" style="border-radius: 50%;"></div>
+          <div class="border-radius-ex" style="border-radius: 15px;"></div>
+          <div class="border-radius-ex" style="border-radius: 5px 15px;"></div>
+          <div class="border-radius-ex" style="border-radius: 5px 15px 30px;"></div>
+          <div class="border-radius-ex" style="border-radius: 0 5px 15px 30px;"></div>
+        </p>
+      </div>
+    </div>
+
+    <h2>Блочные и встроенные элементы</h2>
+    <div>
+      <p>
+        Блочные элементы отображаются на странице в виде прямоугольников.
+        Такие элементы всегда начинаются с новой строки, занимают всю свободную ширину, а их высота определяется их содержимым.
+        К таким элементам относятся <span class="tag">div</span>, <span class="tag">p</span>, теги заголовков и др.<br>
+        Особенности блочных элементов:
+        <ul>
+          <li>к ним применимы все отступы</li>
+          <li>всегда начинаются с новой строки</li>
+        </ul>
+      </p>
+      <p>
+        Встроенные элементы являются частью других элементов и используются для изменения отображения текста.
+        К таким элементам относятся <span class="tag">span</span>, <span class="tag">a</span>, <span class="tag">b</span> и др.
+        Особенности встроенных элементов:
+        <ul>
+          <li>к ним применимы только левые и правые отступы (верхние и нижние будут игнорироваться)</li>
+          <li>игнорируют указание ширины и высоты</li>
+          <li>позволяют обтекание слева и справа</li>
+        </ul>
+      </p>
+      <p>
+        С помощью свойста <span class="code">display</span> можно менять способ отображения элемента.
+        Основные значения, которые может принимать это свойство:
+        <ul>
+          <li>
+            <span class="code">block</span> - элемент будет отображаться как блочный. Например:
+            <p>
+              <span>Это тег<span class="tag">span</span>,</span>
+              <span>по умолчанию он является встроенным элементом.</span>
+              <span class="display-block">Если установить свойство <span class="code">display: block</span>,</span>
+              <span class="display-block">мы увидим, как изменится отображение этого элемента,</span>
+              <span class="display-block">и каждый новый элемент будет находиться на новой строке.</span>
+            </p>
+          </li>
+          <li>
+            <span class="code">inline</span> - элемент будет отображаться как встроенный. Например:
+            <p>
+              <p>Это тег <span class="tag">p</span>, по умолчанию он является блочным элементом.</p>
+              <p class="display-inline">
+                Если установить свойство <span class="code">display: inline</span>, у него пропадут отсупы
+              </p>
+              <p class="display-inline">
+                и каждый такой элемент не будет начинаться с новой строки.
+              </p>
+            </p>
+          </li>
+          <li>
+            <span class="code">inline-block</span> - элемент будет обладать как свойствами блочного, так и встроенного элемента.
+            Это означает, что:
+            <ul>
+              <li>такому элементу можно задать высоту и ширину, и к нему применимы все отступы, как к блочному</li>
+              <li>такой элемент позволяет обтекание справа и слева, как встроенный</li>
+            </ul>
+            <p>
+              Использование такого значения можно посмотерть на <a href="#inline-block-elements">этом примере</a>.
+              У элементов <span class="tag">div</span> задано свойство <span class="code">display: inline-block</span>
+              и они отображаются друг за другом (обтекание), но с сохранением всех отступов и заданной шириной.
+            </p>
+          </li>
+          <li>
+            <span class="code">none</span> - элемент не будет отображаться на странице,
+            а сама страница будет формироваться так, будто этого элемента нет.
+            <p><span class="display-none code">display: none;</span></p>
+          </li>
+        </ul>
+      </p>
+    </div>
+
+    <h2>Обтекание элемента</h2>
+    <div>
+      <div class="float-ex">
+        <img src="img/photo-1473073826085-dafe61d85c04.jpg" alt="Пляж" id="beach">
+        <p>
+          С помощью свойства <span class="code">float</span> можно задать,
+          по какой стороне будет происходить выравнивание элемента и обтекание его остальными элементами.
+        </p>
+        <p>
+          Элемент может быть не выровнен (значение <span class="code">none</span>) или выровнен по левому или правому краю
+          (значения <span class="code">left</span> или <span class="code">right</span>).
+        </p>
+        <p>
+          Для примера зададим обтекании картинки текстом.
+          У фотографии с пляжем задано свойство <span class="code">float: left;</span>,
+          поэтому она выравнивается по левому краю, а этот текст обтекает ее с правого края.
+        </p>
+        <div class="clear-left"></div>
+        <img src="img/photo-1478760018980-38fd12687f47.jpg" alt="Черепаха" id="turtle">
+        <p class="text-right">
+          У фото с черепахой задано свойство <span class="code">float: right;</span>,
+          поэтому изображение выравнивается по правому краю, а текст обтекает его слева.
+          Для выравнивания текста по правому краю задано свойство <span class="code">text-align: right;</span>.
+        </p>
+        <div class="clear-right"></div>
+        <img src="img/photo-1470165511815-34e78ff7a111.jpg" alt="Лис" id="fox">
+        <p>
+          У фото с лисой задано свойство <span class="code">float: none;</span>,
+          поэтому этот текст отображается под картинкой.
+          Такое значение задано у элементов по умолчанию.
+        </p>
+        <div class="clear-both"></div>
+        <p>
+          Для отмены обтекания используется свойство <span class="code">clear</span>,
+          Оно может принимать значения:
+          <ul>
+            <li>
+              <span class="code">none</span> - обтекание будет происходить в соответствии со свойством
+              <span class="code">float</span>.
+            </li>
+            <li>
+              <span class="code">left</span> - отменяет обтекание с левого края.
+            </li>
+            <li>
+              <span class="code">right</span> - отменяет обтекание с правого края.
+            </li>
+            <li>
+              <span class="code">both</span> - отменяет обтекание одновременно с левого и правго края.
+            </li>
+          </ul>
+        </p>
+      </div>
+    </div>
+
+    <h2>Позиционирование элементов</h2>
+    <div>
+      <p>
+        В CSS можно задавать позиционирование элемента, то есть его положение относительно других элементов.
+        Это можно сделать с помощью свойства <span class="code">position</span>.
+        Это свойство может принимать следующие значения:
+      </p>
+      <ul>
+        <li><span class="code">static</span>: значение по умолчанию, элементы отображаются в том порядке, в котором описаны;</li>
+        <li>
+          <span class="code">absolute</span>: элемент позиционируется с помощью свойств
+          <span class="code">left</span>, <span class="code">right</span>, <span class="code">top</span> и <span class="code">bottom</span>
+          относительно родительского элемента (первого не <span class="code">static</span>);
+          <br>
+          <a href="#parrot">Пример использования свойства</a>
+        </li>
+        <li>
+          <span class="code">fixed</span>: элемент позиционируется относительно окна браузера с помощью свойств
+          <span class="code">left</span>, <span class="code">right</span>, <span class="code">top</span> и <span class="code">bottom</span>;
+          <br>
+          Пример: кнопка "наверх" в правом нижнем углу окна;
+        </li>
+        <li>
+          <span class="code">relative</span>: элемент позиционируется относительно его положения в документе с помощью свойств
+          <span class="code">left</span>, <span class="code">right</span>, <span class="code">top</span> и <span class="code">bottom</span>.
+        </li>
+      </ul>
+      <div class="position-ex" id="parrot">
+        <img src="img/photo-1445820200644-69f87d946277.jpg"/>
+        <h3>Эта надпись спозиционирована абсолютно</h3>
+      </div>
+    </div>
+
+    <h2>Визуальные эффекты</h2>
+    <div>
+      С помощью CSS можно создавать множество визуальных эффектов.
+      Рассмотрим некоторые из них.
+      <ul class="list-none">
+        <li>
+          <span>Степень прозрачности элемента</span> задается свойством <span class="code">opacity</span>.
+          Это свойство принимает значения от 0 до 1, где 0 - полностью прозрачный элемент, а 1 - непрозрачный.
+          Примером может служить кнопка "наверх".
+        </li>
+        <li>
+          <span>Эффект перехода между состояниями элемента</span> задается свойством <span class="code">transition</span>.
+          Пример: при наведении на кнопку "наверх", у нее медленно меняется значение свойства <span class="code">opacity</span>.
+        </li>
+        <li>
+          <span>Масштабирование изображений</span> задается свойством <span class="code">object-fit</span>.
+          Это свойство может принимать значения:
+          <div class="object-fit-ex">
+            <p>
+              <span class="code">fill</span> (элемент целиком умещается в заданные размеры, пропорции игнорируются)
+              <br><br>
+              <img src="img/photo-1473101167633-bfa08e705e4b.jpg" style="object-fit: fill"/>
+              <img src="img/photo-1488742286505-cce1f9344f51.jpg" style="object-fit: fill"/>
+            </p>
+            <p>
+              <span class="code">contain</span> (элемент целиком умещается в заданные размеры с соблюдением пропорций)
+              <br><br>
+              <img src="img/photo-1473101167633-bfa08e705e4b.jpg" style="object-fit: contain"/>
+              <img src="img/photo-1488742286505-cce1f9344f51.jpg" style="object-fit: contain"/>
+            </p>
+            <p>
+              <span class="code">cover</span> (элемент увеличивается или уменьшается, чтобы целиком заполнить заданную область с сохранением пропорций)
+              <br><br>
+              <img src="img/photo-1473101167633-bfa08e705e4b.jpg" style="object-fit: cover"/>
+              <img src="img/photo-1488742286505-cce1f9344f51.jpg" style="object-fit: cover"/>
+            </p>
+            <p>
+              <span class="code">none</span> (cохраняются исходные пропорции элемента, значения ширины или высоты не влияют на содержимое)
+              <br><br>
+              <img src="img/photo-1473101167633-bfa08e705e4b.jpg" style="object-fit: none"/>
+              <img src="img/photo-1488742286505-cce1f9344f51.jpg" style="object-fit: none"/>
+            </p>
+          </div>
+          Положение изображения задается с помощью свойства <span class="code">object-position</span>.
+          <a href="#parrot">Пример использования свойства</a>.
+        </li>
+        <li>
+          <span>Тень к тексту и элементу</span>. Тень к тексту добавляется с помощью свойства <span class="code">text-shadow</span>,
+          тень к элементу - с помощью свойства <span class="code">box-shadow</span>.
+          <br>
+          Оба свойства задаются таким образом: <span class="code"><сдвиг по x> <сдвиг по y> <радиус размытия> <цвет></span>.
+          <a href="#parrot">Пример использования свойства</a>.
+        </li>
+      </ul>
+    </div>
+
+    <h2>Медиа-запросы</h2>
+    <div>
+      Для поддержки различных технических параметров устройств используются медиа-запросы.
+      Такие запросы начинаются с правила <span class="code">@media</span> с указанием условия,
+      при котором будут применяться указанные стили.
+      <br>
+      Это могут быть:
+      <ul>
+        <li>
+          тип носителя, например, <span class="code">projection</span>, <span class="code">screen</span>,
+          <span class="code">print</span> и другие.<br>
+          Пример использования:
+          <p id="screen-only" class="hide-text">Эта надпись выводится только при отбражнии на экранах мониторов.</p>
+          <p id="print-only" class="hide-text">Эта надпись выводится только при печати.</p>
+          <p id="projection-only" class="hide-text">Эта надпись выводится только при отбражнии на проекторе.</p>
+        </li>
+        <li>
+          ширина экрана: для создания адаптивного дизайна.
+          Можно указать предельные значения размера экрана для исползуемых стилей, например:
+          <br>
+          <div class="gallery">
+            <img src="img/photo-1460400408855-36abd76648b9.jpg"/>
+            <img src="img/photo-1472070855221-4dff400df492.jpg"/>
+            <img src="img/photo-1474490061654-a538332683d2.jpg"/>
+            <img src="img/photo-1486578997922-e098aa917fc6.jpg"/>
+          </div>
+        </li>
+        <li>
+          ориентация экрана - <span class="code">orientation</span>
+          (<span class="code">landscape</span>  или
+          <span class="code">portrait</span> )
+        </li>
+      </ul>
+      и многие другие.
+      <br><br>
+      В условиях могут находиться логические операторы, такие  как:
+      <span class="code">and</span>, <span class="code">or</span>,
+      <span class="code">not</span> и <span class="code">only</span>.
+      <br>
+      Вместо оператора <span class="code">or</span> можно использовать запятую.
+      <br>
+      Оператор <span class="code">only</span> скрывает правило от старых браузеров.
+      <br>
+      <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">Более подробно о возможностях медиа запросов</a>
+    </div>
+
+    <a class="btn-up" href="#">
+      наверх
+    </a>
   </body>
 </html>
