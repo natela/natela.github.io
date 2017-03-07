@@ -118,7 +118,8 @@ ul.list-none > li {
   width: 50%;
   margin-bottom: 10px;
   height: 150px;
-  object-fit: cover; /* способ встраивания содержимого в элемент */
+  -o-object-fit: cover;
+     object-fit: cover; /* способ встраивания содержимого в элемент */
   object-position: center; /* способ размещения содержимого в элементе */
 }
 #beach {
@@ -189,7 +190,8 @@ ul.list-none > li {
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   object-position: 50% 0%;
   box-shadow: 0 0 3px #000, 0 0 8px #000;
 }
@@ -218,12 +220,13 @@ ul.list-none > li {
   }
 }
 @media projection {
-  #print-only {
+  #projection-only {
     display: block;
   }
 }
 .gallery > img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   object-position: 50%;
 }
 @media (min-width: 1200px) {

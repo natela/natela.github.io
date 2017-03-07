@@ -4,7 +4,10 @@ body {
   background-color: #fcfcfc;
 }
 h1 {
-  color: #6a95b7;
+  color: #1A5D92;
+}
+h2 {
+  color: #5E8DB2;
 }
 a {
   text-decoration: none;
@@ -14,4 +17,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #FF8A65;
+}
+ul {
+  list-style-type: none;
 }
