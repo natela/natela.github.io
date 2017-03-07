@@ -489,7 +489,7 @@
       Такие запросы начинаются с правила <span class="code">@media</span> с указанием условия,
       при котором будут применяться указанные стили.
       <br>
-      Такими условиями могут быть:
+      Это могут быть:
       <ul>
         <li>
           тип носителя, например, <span class="code">projection</span>, <span class="code">screen</span>,
@@ -510,11 +510,23 @@
             <img src="img/photo-1486578997922-e098aa917fc6.jpg"/>
           </div>
         </li>
+        <li>
+          ориентация экрана - <span class="code">orientation</span>
+          (<span class="code">landscape</span>  или
+          <span class="code">portrait</span> )
+        </li>
       </ul>
+      и многие другие.
+      <br><br>
       В условиях могут находиться логические операторы, такие  как:
-      <ul>
-        <li></li>
-      </ul>
+      <span class="code">and</span>, <span class="code">or</span>,
+      <span class="code">not</span> и <span class="code">only</span>.
+      <br>
+      Вместо оператора <span class="code">or</span> можно использовать запятую.
+      <br>
+      Оператор <span class="code">only</span> скрывает правило от старых браузеров.
+      <br>
+      <a href="https://www.w3schools.com/cssref/css3_pr_mediaquery.asp" target="_blank">Более подробно о возможностях медиа запросов</a>
     </div>
 
     <a class="btn-up" href="#">
