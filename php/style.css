@@ -3,6 +3,7 @@ body {
   font-size: 18px;
   background-color: #fcfcfc;
   color: #333;
+  font-family: 'Noto Sans', sans-serif;
 }
 h1 {
   color: #1A5D92;
@@ -21,6 +22,10 @@ a:hover {
 }
 ul {
   list-style-type: none;
+}
+.back-btn::before {
+  content: '\2B05';
+  padding-right: 5px;
 }
 .screenshot {
   width: 60%;
