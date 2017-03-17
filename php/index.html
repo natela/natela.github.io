@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Установка PHP+MySQL на Cloud9"/>
+    <meta property="og:description" content="Подробное описание установка PHP+MySQL на Cloud9"/>
+    <meta property="og:image" content="./src/php.png">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./style.css">
+    <title>Установка PHP+MySQL</title>
+    <style></style>
+  </head>
+  <body>
+    <h1>Разработка back-end: основы PHP</h1>
+    <p>
+      Для того, чтобы начать работу с PHP и MySQL на Cloud9 нужно:
+      <ol>
+       <li>
+         Зайти на <a href="https://c9.io/">Cloud9</a> и зарегистрироваться.
+       </li>
+       <li>
+         Создать workspace, при создании выбрать шаблон: PHP. Открыть workspace.
+         <img class="screenshot" src="./img/Screenshot - 03172017 - 11-41-17 AM.png"></img>
+       </li>
+       <li>
+         Открыть консоль и выполнить последовательно команды:
+         <p class="console">
+           <span>mysql-ctl start</span><br>
+           <span>phpmyadmin-ctl install</span><br>
+         </p>
+       </li>
+       <li>
+         Перейти по ссылке, вернувшейся в консоли (ссылка вида  https://workspacename-username.c9users.io/phpmyadmin).
+       </li>
+       <li>
+         Авторизоваться, используя логин Cloud9 и пустой пароль.
+       </li>
+      </ol>
+    </p>
+  </body>
+</html>
