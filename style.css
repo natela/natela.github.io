@@ -22,3 +22,11 @@ a:hover {
 ul {
   list-style-type: none;
 }
+a.repo-link {
+  text-decoration: underline;
+  color: #1A5D92;
+  font-weight: normal;
+}
+a.repo-link:hover {
+  color: #5E8DB2;
+}
