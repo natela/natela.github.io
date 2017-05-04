@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Установка PHP+MySQL на Cloud9"/>
+    <meta property="og:description" content="Подробное описание установка PHP+MySQL на Cloud9"/>
+    <meta property="og:image" content="./src/php.png">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="../font.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Установка Ruby on Rails+MySQL</title>
+    <style></style>
+  </head>
+  <body>
+    <a href="../index.html" class="back-btn">К содержанию курса</a>
+    <h1>Установка Ruby on Rails+MySQL, phpMyAdmin</h1>
+    <p>
+      Для того, чтобы начать работу с Ruby on Rails и MySQL на Cloud9 нужно:
+      <ol>
+       <li>
+         В <a href="https://c9.io/">Cloud9</a> создать workspace, при создании выбрать шаблон: Ruby. Открыть workspace.
+       </li>
+       <li>
+         Открыть консоль (<span class="code">Alt+T</span>) и выполнить последовательно команды:
+         <p class="console">
+           <span>mysql-ctl start</span><br>
+           <span>phpmyadmin-ctl install</span><br>
+         </p>
+       </li>
+       <li>
+         Далее нужно отредактировать конфигурацию Apache, изменив порт с 8080 на 8081.<br>
+         Отредактируем файл ports.conf при помощи консольного редактора nano с правами суперпользователя.<br>
+         Для сохранения файла, жмем (<span class="code">Ctrl+X</span>), затем (<span class="code">y</span>), чтобы сохранить файл с тем же именем.
+         <p class="console">
+           <span>sudo nano /etc/apache2/ports.conf</span><br>
+         </p>
+       </li>
+
+       <li>
+         Перезапустим web-сервер Apache
+         <p class="console">
+           <span>sudo service apache2 restart</span><br>
+         </p>
+       </li>
+       <li>
+         Теперь phpMyAdmin доступен по ссылке вида  https://workspacename-username.c9users.io:8081/phpmyadmin
+       </li>
+       <li>
+         Добавим gem для подключения СУБД MySQL в файл Gemfile
+         <pre>
+gem 'mysql2'
+         </pre>
+       </li>
+       <li>
+         Отредактируем файл подключения к базе данных /config/database.yml<br>
+         (не забудьте указать свое имя пользователя на c9 вместо username)
+           <pre>
+default: &default
+  adapter: mysql2
+  encoding: utf8
+  username: username
+  password:
+  host: localhost
+  socket: /var/run/mysqld/mysqld.sock
+  reconnect: true
+
+development:
+  <<: *default
+  database: articles
+  </pre>
+       </li>
+       <li>
+         Загрузим все необходимые gem`ы при помощи bundler
+         <p class="console">
+           <span>bundle install</span><br>
+         </p>
+       </li>
+       <li>
+         Создадим базу данных
+         <p class="console">
+           <span>rake db:create</span><br>
+         </p>
+       </li>
+       <li>
+         Сгенерируем модель, вид, контроллер, файл миграции и т.д. для статей (article) с полями (title и content) при помощи scaffold
+         <p class="console">
+           <span>rails generate scaffold article title content</span><br>
+         </p>
+       </li>
+       <li>
+         Применим миграцию
+         <p class="console">
+           <span>rake db:migrate</span><br>
+         </p>
+       </li>
+       <li>
+         Укажем маршрут для корня сайта ("/"), добавив в файл /config/routes.rb строку root "articles#index"<br>
+         В результате должно получиться вот так:
+         <pre>
+Rails.application.routes.draw do
+  root "articles#index"
+  resources :articles
+end
+         </pre>
+       </li>
+       <li>
+         Список статей теперь будет доступен по ссылке вида<br>
+         https://workspacename-username.c9users.io
+       </li>
+      </ol>
+      <p>
+
+      </p>
+    </p>
+  </body>
+</html>
