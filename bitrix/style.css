@@ -51,3 +51,7 @@ ul {
 .code {
   font-family: monospace;
 }
+.attention {
+  color: #ff5722;
+  font-weight: bold;
+}
