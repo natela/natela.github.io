@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Установка и настройка Битрикс на Cloud9"/>
+    <meta property="og:description" content="Подробное описание установки и настройки Битрикс на Cloud9"/>
+    <meta property="og:image" content="./img/bitrix.png">
+    <link rel="icon" type="image/x-icon" href="./img/bitrix.png">
+    <link rel="stylesheet" href="../font.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Как победить Битрикс</title>
+    <style></style>
+  </head>
+  <body>
+    <a href="../index.html" class="back-btn">К содержанию курса</a>
+    <h1>Установка и настройка Битрикс на Cloud9</h1>
+    <p>
+      Для того, чтобы начать работу с PHP и MySQL на Cloud9 нужно:
+      <ol>
+       <li>
+         Создать workspace с шаблоном PHP по <a href="https://natela.github.io/php/index.html">этой инструкции</a>.
+       </li>
+       <li>
+         Скачать файл <a href="https://www.1c-bitrix.ru/download/scripts/bitrixsetup.php">bitrixsetup.php</a>
+         и загрузить его в корень созданного workspace.
+       </li>
+       <li>Обновить файл php.ini на <a href="./src/php.ini">этот</a>, в нем изменены некоторые настройки</li>
+       <li>
+         Запустить сервер и открыть в браузере файл bitrixsetup.php. Указать следующие параметры и нажать загрузить.
+         <img class="screenshot" src="./img/Screenshot - 05232017 - 09:14:57 PM.png"></img>
+         <img class="screenshot" src="./img/Screenshot - 05232017 - 09:15:44 PM.png"></img>
+       </li>
+       <li>
+         При установке Битрикс существенно указать следующие настройки на этапе создания базы данных:
+         база данных - новая, имя пользователя и логин - ваш логин Cloud9, пароль - пустой, если не меняли в phpmyadmin.
+         <img class="screenshot" src="./img/Screenshot - 05232017 - 09:41:19 PM.png"></img>
+       </li>
+       <li>
+         При выборе решения укажите "Демо-сайт для разработчиков".
+         После установки откроется новый мастер, в нем нужно нажать отмена и/или перейти на сайт.
+         <img class="screenshot" src="./img/Screenshot - 05232017 - 09:45:54 PM.png"></img>
+       </li>
+       <li>
+         На вкладке "Администрирование" перейдите в "Настройки продукта" -> "Сайты" -> "Список шаблонов" и добавьте новый шаблон.
+         <img class="screenshot" src="./img/Screenshot - 05232017 - 10:35:17 PM.png"></img>
+       </li>
+       <li>
+         Отредактируйте свой шаблон: cкопируйте в "Шаблон" и "Стили шаблона" соотвествующий код из шаблона "desktop_app"
+         и добавьте в самом начале тега <span class="code">body</span> строчку
+         <span class="code">&lt;div id="panel"&gt;&lt;?$APPLICATION->ShowPanel();?&gt;&lt;/div&gt;</span>
+         (это вернет панель администрирования).
+         <img class="screenshot" src="./img/Screenshot - 05232017 - 10:45:14 PM.png"></img>
+       </li>
+       <li>
+         Перейдите в "Настройки продукта" -> "Сайты" -> "Список сайтов" и в параметрах сайта
+         укажите ваш шаблон.
+         <img class="screenshot" src="./img/Screenshot - 05232017 - 10:48:20 PM.png"></img>
+       </li>
+      </ol>
+    </p>
+  </body>
+</html>
