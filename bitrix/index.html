@@ -161,9 +161,44 @@
       В иерархии нашего сайта добавились папки, соответствующие разделам сайта и
       файл <span class="attention">.top.menu.php</span> с описанием главного меню сайта.
       <img class="screenshot" src="./img/Screenshot - 05242017 - 10:50:47 AM.png"></img>
-      <!--ol>
-        <li></li>
-      </ol-->
+    </p>
+    <h2>Редактирование шаблона компонента</h2>
+    <p>
+      Шаблоны компонентов описывают вид компонентов (новостей, меню, галереи и т.д.)
+      в вашем шаблоне сайта.
+      Для того, чтобы поменять отображение этих компоненов (на примере меню), требуется:
+      <ol>
+        <li>
+          Скопировать шаблон компонента, которой установлен сейчас, в режиме правки.
+          <img class="screenshot" src="./img/Screenshot - 05242017 - 11:00:32 AM.png"></img>
+          Откроется окно, нужно указать название шаблона компонента,
+          выбрать ваш шаблон сайта, выбрать применить новый шаблон к компоненту
+          и нажать <span class="attention">Сохранить</span>
+          <img class="screenshot" src="./img/Screenshot - 05242017 - 11:01:24 AM.png"></img>
+        </li>
+        <li>
+          Теперь в папке шаблона (<span class="attention">/bitrix/templates/my-template</span>)
+          появилась папка с шаблонами компонентов и нашим шаблоном.
+          В файле <span class="attention">templete.php</span> находится реализация
+          шаблона компонента.
+          <img class="screenshot" src="./img/Screenshot - 05242017 - 11:05:00 AM.png"></img>
+          Мы видим, что в цикле <span class="attention code">foreach</span>
+          выводятся пункты меню ссылками, при этом у активного пункта меню выставляется
+          класс <span class="attention code">selected</span>.
+          Внесем изменения в шаблон и выведем ссылку на главную страницу перед
+          всеми пунктами меню.
+          <img class="screenshot" src="./img/Screenshot - 05242017 - 11:21:28 AM.png"></img>
+        </li>
+        <li>
+          Все стили, относящиеся к данному компоненту находятся в файле
+          <span class="attention">style.css</span>
+          <img class="screenshot" src="./img/Screenshot - 05242017 - 11:10:58 AM.png"></img>
+          Немного изменим их, чтобы, пункты меню располагались горизонтально.
+          <img class="screenshot" src="./img/Screenshot - 05242017 - 11:15:21 AM.png"></img>
+        </li>
+      </ol>
+      Что получилось в итоге.
+      <img class="screenshot" src="./img/Screenshot - 05242017 - 11:23:44 AM.png"></img>
     </p>
   </body>
 </html>
