@@ -25,3 +25,4 @@
 ИВТ       | ИТ-11МО  | Козлова Анна Павловна             | [annyrtd/web-programming](https://github.com/annyrtd/web-programming)
 ИВТ       | ИТ-11МО  | Мазилова Екатерина                | [emazilova/web-programming](https://github.com/emazilova/web-programming)
 ИВТ       | ИТ-11МО  | Рыжов Денис Олегович              | [ryzhovdenis/web_programming](https://github.com/ryzhovdenis/web_programming)
+ИВТ       | ПИЭ-31БО | Езжев Никита                      | [EzzhevNikita/web_development](https://github.com/EzzhevNikita/web_development)
