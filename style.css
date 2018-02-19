@@ -30,3 +30,9 @@ a.repo-link {
 a.repo-link:hover {
   color: #5E8DB2;
 }
+.screenshot {
+  width: 60%;
+  border: 2px solid #ccc;
+  margin: 20px 0;
+  display: block;
+}

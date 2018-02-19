@@ -27,12 +27,6 @@ ul {
   content: '\2B05';
   padding-right: 5px;
 }
-.screenshot {
-  width: 60%;
-  border: 2px solid #ccc;
-  margin: 20px 0;
-  display: block;
-}
 .console {
   width: 60%;
   background-color: #153649;
