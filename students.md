@@ -18,6 +18,7 @@
 ИВТ       | ИТ-32БО  | Полетаева Вера Михайловна         | [PoletaevaVera/poletaevavera](https://github.com/PoletaevaVera/poletaevavera)
 ИВТ       | ИТ-32БО  | Ратников Егор                     | [Horaigo/web-prog](https://github.com/Horaigo/web-prog)
 ИВТ       | ИТ-32БО  | Сурикова Елена Евгеньевна         | [SurikovaElena/Surikova1](https://github.com/SurikovaElena/Surikova1)
+ИВТ       | ИВТ-11МО | Глазовский Александр Андреевич    | [alexanderglazovskiy/test](https://github.com/alexanderglazovskiy/test)
 ИВТ       | ИВТ-11МО | Кашин Олег Алексеевич             | [amig03/Web_development](https://github.com/amig03/Web_development)
 ИВТ       | ИВТ-11МО | Малов Максим Андреевич            | [Maksim-Malov/web](https://github.com/Maksim-Malov/web)
 ИВТ       | ИВТ-11МО | Павлова Ксения Владимировна       | [Ksu-nya/project_1](https://github.com/Ksu-nya/project_1)
@@ -29,4 +30,4 @@
 ИВТ       | ПИЭ-31БО | Езжев Никита                      | [EzzhevNikita/web_development](https://github.com/EzzhevNikita/web_development)
 ИВТ       | ПИЭ-31БО | Пелёвин Михаил                    | [michael-pelevin/webdevelopment](https://github.com/michael-pelevin/webdevelopment)
 Ивт       | ПИЭ-31БО | Топникова Дарья Сергеевна         | [DashaTop/web_yargu](https://github.com/DashaTop/web_yargu)
-| | | | https://github.com/alexanderglazovskiy/test
+
