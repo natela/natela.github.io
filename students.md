@@ -29,5 +29,5 @@
 ИВТ       | ИТ-11МО  | Рыжов Денис Олегович              | [ryzhovdenis/web_programming](https://github.com/ryzhovdenis/web_programming)
 ИВТ       | ПИЭ-31БО | Езжев Никита                      | [EzzhevNikita/web_development](https://github.com/EzzhevNikita/web_development)
 ИВТ       | ПИЭ-31БО | Пелёвин Михаил                    | [michael-pelevin/webdevelopment](https://github.com/michael-pelevin/webdevelopment)
-Ивт       | ПИЭ-31БО | Топникова Дарья Сергеевна         | [DashaTop/web_yargu](https://github.com/DashaTop/web_yargu)
+ИВТ       | ПИЭ-31БО | Топникова Дарья Сергеевна         | [DashaTop/web_yargu](https://github.com/DashaTop/web_yargu)
 
