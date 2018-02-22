@@ -1,0 +1,14 @@
+Факультет | Группа   | ФИО                               | Репозиторий
+----------|----------|-----------------------------------|---------------
+ИВТ       | ИВТ-11МО | Глазовский Александр Андреевич    | [alexanderglazovskiy/test](https://github.com/alexanderglazovskiy/test)
+ИВТ       | ИВТ-11МО | Кашин Олег Алексеевич             | [amig03/Web_development](https://github.com/amig03/Web_development)
+ИВТ       | ИВТ-11МО | Малов Максим Андреевич            | [Maksim-Malov/web](https://github.com/Maksim-Malov/web)
+ИВТ       | ИВТ-11МО | Павлова Ксения Владимировна       | [Ksu-nya/project_1](https://github.com/Ksu-nya/project_1)
+ИВТ       | ИТ-11МО  | Галкин Владислав Юрьевич          | [ghostofcod/WebDevelopment](https://github.com/ghostofcod/WebDevelopment)
+ИВТ       | ИТ-11МО  | Goncharov Alexander Alekseevich   | [AlexGoncharov/WebDevelopmentNatelaCourse](https://github.com/AlexGoncharov/WebDevelopmentNatelaCourse)
+ИВТ       | ИТ-11МО  | Горишный Алексей Сергеевич        | [0x414c/webdev-course-2018](https://github.com/0x414c/webdev-course-2018)
+ИВТ       | ИТ-11МО  | Козлова Анна Павловна             | [annyrtd/web-programming](https://github.com/annyrtd/web-programming)
+ИВТ       | ИТ-11МО  | Мазилова Екатерина                | [emazilova/web-programming](https://github.com/emazilova/web-programming)
+ИВТ       | ИТ-11МО  | Новиков Андрей Игоревич           | [nandrew079/web-dev](https://github.com/nandrew079/web-dev)
+ИВТ       | ИТ-11МО  | Рыжов Денис Олегович              | [ryzhovdenis/web_programming](https://github.com/ryzhovdenis/web_programming)
+ИВТ       | ИТ-11МО  | Совин А.В.                        | [alohapocan/webdevelopment](https://github.com/alohapocan/webdevelopment)
