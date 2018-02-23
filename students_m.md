@@ -1,9 +1,11 @@
 Факультет | Группа   | ФИО                               | Репозиторий
 ----------|----------|-----------------------------------|---------------
 ИВТ       | ИВТ-11МО | Глазовский Александр Андреевич    | [alexanderglazovskiy/test](https://github.com/alexanderglazovskiy/test)
+ИВТ       | ИВТ-11МО | Игнатуша Антон Александрович      | [toxoxa/web-development](https://github.com/toxoxa/web-development)
 ИВТ       | ИВТ-11МО | Кашин Олег Алексеевич             | [amig03/Web_development](https://github.com/amig03/Web_development)
 ИВТ       | ИВТ-11МО | Малов Максим Андреевич            | [Maksim-Malov/web](https://github.com/Maksim-Malov/web)
 ИВТ       | ИВТ-11МО | Павлова Ксения Владимировна       | [Ksu-nya/project_1](https://github.com/Ksu-nya/project_1)
+ИВТ       | ИВТ-11МО | Смирнова Диана Денисовна          | [dianasmde/web-programming](https://github.com/dianasmde/web-programming)
 ИВТ       | ИТ-11МО  | Галкин Владислав Юрьевич          | [ghostofcod/WebDevelopment](https://github.com/ghostofcod/WebDevelopment)
 ИВТ       | ИТ-11МО  | Goncharov Alexander Alekseevich   | [AlexGoncharov/WebDevelopmentNatelaCourse](https://github.com/AlexGoncharov/WebDevelopmentNatelaCourse)
 ИВТ       | ИТ-11МО  | Горишный Алексей Сергеевич        | [0x414c/webdev-course-2018](https://github.com/0x414c/webdev-course-2018)
