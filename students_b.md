@@ -20,4 +20,5 @@
 ИВТ       | ИТ-32БО  | Сурикова Елена Евгеньевна         | [SurikovaElena/Surikova1](https://github.com/SurikovaElena/Surikova1)
 ИВТ       | ПИЭ-31БО | Езжев Никита                      | [EzzhevNikita/web_development](https://github.com/EzzhevNikita/web_development)
 ИВТ       | ПИЭ-31БО | Пелёвин Михаил                    | [michael-pelevin/webdevelopment](https://github.com/michael-pelevin/webdevelopment)
+ИВТ       | ПИЭ-31БО | Титова Елизавета Михайловна       | [Elizabeth-Titova/MyLab](https://github.com/Elizabeth-Titova/MyLab)
 ИВТ       | ПИЭ-31БО | Топникова Дарья Сергеевна         | [DashaTop/web_yargu](https://github.com/DashaTop/web_yargu)
