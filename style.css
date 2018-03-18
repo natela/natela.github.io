@@ -35,6 +35,10 @@ a.repo-link:hover {
   margin: 20px 0;
   display: block;
 }
+.comment {
+  color: #555;
+  font-size: 0.9em;
+}
 @media (min-width: 992px) {
   .screenshot {
     width: 750px;
