@@ -25,5 +25,5 @@
 ИВТ       | ИТ-11МО  | Сальников Антон Игоревич          | +   |     |     | [SaAn96/web-programming](https://github.com/SaAn96/web-programming)
 ИВТ       | ИТ-11МО  | Совин А.В.                        |     |     |     | [alohapocan/webdevelopment](https://github.com/alohapocan/webdevelopment)
 ИВТ       | ИТ-11МО  | Соколов Роман Дмитриевич          | +   |     |     | [shinDOZER/web-dev](https://github.com/shinDOZER/web-dev)
-ИВТ       | ПИ-11МО  | Климченко                         | +   |     |     |
+ИВТ       | ПИ-11МО  | Климченко                         | .   |     |     |
 ИВТ       | ПИ-11МО  | Новиков Денис                     | +   |     |     | 
