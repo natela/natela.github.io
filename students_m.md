@@ -10,7 +10,7 @@
 ИВТ       | ИВТ-11МО | Малов Максим Андреевич            |     |     |     | [Maksim-Malov/web](https://github.com/Maksim-Malov/web)
 ИВТ       | ИВТ-11МО | Михайлова Мария Александровна     |     |     |     | [mikhaylova/web](https://github.com/mikhaylova/web)
 ИВТ       | ИВТ-11МО | Никитин Евгений Сергеевич         | +   |     |     | [Phant76/web-lessons](https://github.com/Phant76/web-lessons)
-ИВТ       | ИВТ-11МО | Павлова Ксения Владимировна       |     |     |     | [Ksu-nya/project_1](https://github.com/Ksu-nya/project_1)
+ИВТ       | ИВТ-11МО | Павлова Ксения Владимировна       | +   |     |     | [Ksu-nya/project_1](https://github.com/Ksu-nya/project_1)
 ИВТ       | ИВТ-11МО | Смирнова Диана Денисовна          |     |     |     | [dianasmde/web-programming](https://github.com/dianasmde/web-programming)
 ИВТ       | ИВТ-11МО | Торопова Анастасия Дмитриевна     | +   |     |     | [Anastasiya-T/web-application](https://github.com/Anastasiya-T/web-application)
 ИВТ       | ИТ-11МО  | Галкин Владислав Юрьевич          |     |     |     | [ghostofcod/WebDevelopment](https://github.com/ghostofcod/WebDevelopment)
