@@ -10,9 +10,9 @@
 ИВТ       | ИВТ-11МО | Малов Максим Андреевич            |     |     |     | [Maksim-Malov/web](https://github.com/Maksim-Malov/web)
 ИВТ       | ИВТ-11МО | Михайлова Мария Александровна     |     |     |     | [mikhaylova/web](https://github.com/mikhaylova/web)
 ИВТ       | ИВТ-11МО | Никитин Евгений Сергеевич         | +   |     |     | [Phant76/web-lessons](https://github.com/Phant76/web-lessons)
-ИВТ       | ИВТ-11МО | Павлова Ксения Владимировна       |     |     |     | [Ksu-nya/project_1](https://github.com/Ksu-nya/project_1)
+ИВТ       | ИВТ-11МО | Павлова Ксения Владимировна       | +   |     |     | [Ksu-nya/project_1](https://github.com/Ksu-nya/project_1)
 ИВТ       | ИВТ-11МО | Смирнова Диана Денисовна          |     |     |     | [dianasmde/web-programming](https://github.com/dianasmde/web-programming)
-ИВТ       | ИВТ-11МО | Торопова Анастасия Дмитриевна     |     |     |     | [Anastasiya-T/web-application](https://github.com/Anastasiya-T/web-application)
+ИВТ       | ИВТ-11МО | Торопова Анастасия Дмитриевна     | +   |     |     | [Anastasiya-T/web-application](https://github.com/Anastasiya-T/web-application)
 ИВТ       | ИТ-11МО  | Галкин Владислав Юрьевич          |     |     |     | [ghostofcod/WebDevelopment](https://github.com/ghostofcod/WebDevelopment)
 ИВТ       | ИТ-11МО  | Goncharov Alexander Alekseevich   |     |     |     | [AlexGoncharov/WebDevelopmentNatelaCourse](https://github.com/AlexGoncharov/WebDevelopmentNatelaCourse)
 ИВТ       | ИТ-11МО  | Горишный Алексей Сергеевич        | +   |     |     | [0x414c/webdev-course-2018](https://github.com/0x414c/webdev-course-2018)
@@ -25,5 +25,5 @@
 ИВТ       | ИТ-11МО  | Сальников Антон Игоревич          | +   |     |     | [SaAn96/web-programming](https://github.com/SaAn96/web-programming)
 ИВТ       | ИТ-11МО  | Совин А.В.                        |     |     |     | [alohapocan/webdevelopment](https://github.com/alohapocan/webdevelopment)
 ИВТ       | ИТ-11МО  | Соколов Роман Дмитриевич          | +   |     |     | [shinDOZER/web-dev](https://github.com/shinDOZER/web-dev)
-ИВТ       | ПИ-11МО  | Климченко                         | .   |     |     |
-ИВТ       | ПИ-11МО  | Новиков Денис                     | +   |     |     | 
+ИВТ       | ПИ-11МО  | Климченко Валерий Дмитриевич      | .   |     |     | [Valeriy2912/Valeriy2912.github.io](https://github.com/Valeriy2912/Valeriy2912.github.io)
+ИВТ       | ПИ-11МО  | Новиков Андрей Игоревич           | +   |     |     | [nandrew079/web-dev](https://github.com/nandrew079/web-dev)
