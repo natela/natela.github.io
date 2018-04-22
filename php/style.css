@@ -28,20 +28,29 @@ ul {
   padding-right: 5px;
 }
 .console {
-  width: 60%;
+  width: 754px;
   background-color: #153649;
+  
+}
+.console > p {
   padding: 20px;
   margin: 20px 0;
   font-family: monospace;
 }
-.console span {
+.console > p span {
   color: #fff;
 }
-.console span:before {
+.console > p span:before {
   content: 'username:~/workspace $ ';
   color: #5A84AE;
   color: #8AE234;
 }
 .code {
   font-family: monospace;
+}
+@media (max-width: 991px) {
+  .console {
+    width: 100%;
+    font-size: 16px;
+  }
 }
