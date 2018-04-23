@@ -13,7 +13,7 @@
 ИВТ       | ИТ-32БО  | Груздева Наталья Андреевна        | +   |     |     | [natatali-ya/labs](https://github.com/natatali-ya/labs)
 ИВТ       | ИТ-32БО  | Ежов Иван                         | +   |     |     | [vunyuya/web](https://github.com/vunyuya/web)
 ИВТ       | ИТ-32БО  | Королева Анастасия Викторовна     | .   |     |     | [Koroleva3/Koroleva3](https://github.com/Koroleva3/Koroleva3)
-ИВТ       | ИТ-32БО  | Королева Елизавета Юрьевна        | .   |     |     | [elizaveta4/test](https://github.com/elizaveta4/test)
+ИВТ       | ИТ-32БО  | Королева Елизавета Юрьевна        | +   |     |     | [elizaveta4/test](https://github.com/elizaveta4/test)
 ИВТ       | ИТ-32БО  | Кошелев Виктор Валерьевич         |     |     |     | [ViktorKoshelev/web-depelopment](https://github.com/ViktorKoshelev/web-depelopment)
 ИВТ       | ИТ-32БО  | Ложкин Дмитрий Николаевич         | +   |     |     | [coder911x/Web](https://github.com/coder911x/Web)
 ИВТ       | ИТ-32БО  | Папулов Олег                      |     |     |     | [raffo111/web](https://github.com/raffo111/web)
