@@ -2,7 +2,7 @@
 ----------|----------|-----------------------------------|-----|-----|-----|---------
 ИВТ       | ИТ-31БО  | Volotskoy Vadim                   | +   |     |     | [versusvirus/FrontendUniversity](https://github.com/versusvirus/FrontendUniversity)
 ИВТ       | ИТ-31БО  | Горшков Александр Александрович   |     |     |     | [skazi14/web](https://github.com/skazi14/web)
-ИВТ       | ИТ-31БО  | Грушевская Дарья Владимировна     | +   |     |     | [ggeraldina/test](https://github.com/ggeraldina/test)
+ИВТ       | ИТ-31БО  | Грушевская Дарья Владимировна     | +   | +   |     | [ggeraldina/test](https://github.com/ggeraldina/test)
 ИВТ       | ИТ-31БО  | Золотова Элина Евгеньевна         | +   |     |     | [Zolotova/web](https://github.com/Zolotova/web)
 ИВТ       | ИТ-31БО  | Крылов Максим Алексеевич          |     |     |     | [max-krylow/basics-of-web](https://github.com/max-krylow/basics-of-web)
 ИВТ       | ИТ-31БО  | Мельникова Екатерина              | +   |     |     | [MelnikovaK/web](https://github.com/MelnikovaK/web)
