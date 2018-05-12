@@ -15,7 +15,7 @@
 ИВТ       | ИТ-32БО  | Королева Анастасия Викторовна     | .   |     |     | [Koroleva3/Koroleva3](https://github.com/Koroleva3/Koroleva3)
 ИВТ       | ИТ-32БО  | Королева Елизавета Юрьевна        | +   |     |     | [elizaveta4/test](https://github.com/elizaveta4/test)
 ИВТ       | ИТ-32БО  | Кошелев Виктор Валерьевич         |     |     |     | [ViktorKoshelev/web-depelopment](https://github.com/ViktorKoshelev/web-depelopment)
-ИВТ       | ИТ-32БО  | Ложкин Дмитрий Николаевич         | +   |     |     | [coder911x/Web](https://github.com/coder911x/Web)
+ИВТ       | ИТ-32БО  | Ложкин Дмитрий Николаевич         | +   | +   |     | [coder911x/Web](https://github.com/coder911x/Web)
 ИВТ       | ИТ-32БО  | Папулов Олег                      |     |     |     | [raffo111/web](https://github.com/raffo111/web)
 ИВТ       | ИТ-32БО  | Полетаева Вера Михайловна         |     |     |     | [PoletaevaVera/poletaevavera](https://github.com/PoletaevaVera/poletaevavera)
 ИВТ       | ИТ-32БО  | Ратников Егор                     | +   |     |     | [Horaigo/web-prog](https://github.com/Horaigo/web-prog)
