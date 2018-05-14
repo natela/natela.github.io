@@ -2,7 +2,7 @@
 ----------|----------|-----------------------------------|-----|-----|-----|---------
 ИВТ       | ИТ-31БО  | Volotskoy Vadim                   | +   |     |     | [versusvirus/FrontendUniversity](https://github.com/versusvirus/FrontendUniversity)
 ИВТ       | ИТ-31БО  | Горшков Александр Александрович   |     |     |     | [skazi14/web](https://github.com/skazi14/web)
-ИВТ       | ИТ-31БО  | Грушевская Дарья Владимировна     | +   |     |     | [ggeraldina/test](https://github.com/ggeraldina/test)
+ИВТ       | ИТ-31БО  | Грушевская Дарья Владимировна     | +   | +   |     | [ggeraldina/test](https://github.com/ggeraldina/test)
 ИВТ       | ИТ-31БО  | Золотова Элина Евгеньевна         | +   |     |     | [Zolotova/web](https://github.com/Zolotova/web)
 ИВТ       | ИТ-31БО  | Крылов Максим Алексеевич          |     |     |     | [max-krylow/basics-of-web](https://github.com/max-krylow/basics-of-web)
 ИВТ       | ИТ-31БО  | Мельникова Екатерина              | +   |     |     | [MelnikovaK/web](https://github.com/MelnikovaK/web)
@@ -15,7 +15,7 @@
 ИВТ       | ИТ-32БО  | Королева Анастасия Викторовна     | .   |     |     | [Koroleva3/Koroleva3](https://github.com/Koroleva3/Koroleva3)
 ИВТ       | ИТ-32БО  | Королева Елизавета Юрьевна        | +   |     |     | [elizaveta4/test](https://github.com/elizaveta4/test)
 ИВТ       | ИТ-32БО  | Кошелев Виктор Валерьевич         |     |     |     | [ViktorKoshelev/web-depelopment](https://github.com/ViktorKoshelev/web-depelopment)
-ИВТ       | ИТ-32БО  | Ложкин Дмитрий Николаевич         | +   |     |     | [coder911x/Web](https://github.com/coder911x/Web)
+ИВТ       | ИТ-32БО  | Ложкин Дмитрий Николаевич         | +   | +   |     | [coder911x/Web](https://github.com/coder911x/Web)
 ИВТ       | ИТ-32БО  | Папулов Олег                      |     |     |     | [raffo111/web](https://github.com/raffo111/web)
 ИВТ       | ИТ-32БО  | Полетаева Вера Михайловна         |     |     |     | [PoletaevaVera/poletaevavera](https://github.com/PoletaevaVera/poletaevavera)
 ИВТ       | ИТ-32БО  | Ратников Егор                     | +   |     |     | [Horaigo/web-prog](https://github.com/Horaigo/web-prog)
