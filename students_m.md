@@ -26,4 +26,4 @@
 ИВТ       | ИТ-11МО  | Совин А.В.                        | /   | +   |     | [alohapocan/webdevelopment](https://github.com/alohapocan/webdevelopment)
 ИВТ       | ИТ-11МО  | Соколов Роман Дмитриевич          | +   |     |     | [shinDOZER/web-dev](https://github.com/shinDOZER/web-dev)
 ИВТ       | ПИ-11МО  | Климченко Валерий Дмитриевич      | +   |     |     | [Valeriy2912/Valeriy2912.github.io](https://github.com/Valeriy2912/Valeriy2912.github.io)
-ИВТ       | ПИ-11МО  | Новиков Денис                     |     |     |     |
+ИВТ       | ПИ-11МО  | Новиков Денис                     |     |     |     | [rizotto/webdev-course](https://github.com/rizotto/webdev-course)
