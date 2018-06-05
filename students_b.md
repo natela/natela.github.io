@@ -17,7 +17,7 @@
 ИВТ       | ИТ-32БО  | Кошелев Виктор Валерьевич         | /   | +   | +   | [ViktorKoshelev/web-depelopment](https://github.com/ViktorKoshelev/web-depelopment)
 ИВТ       | ИТ-32БО  | Ложкин Дмитрий Николаевич         | +   | +   | +   | [coder911x/Web](https://github.com/coder911x/Web)
 ИВТ       | ИТ-32БО  | Папулов Олег                      | /   | /   |     | [raffo111/web](https://github.com/raffo111/web)
-ИВТ       | ИТ-32БО  | Полетаева Вера Михайловна         |     |     |     | [PoletaevaVera/poletaevavera](https://github.com/PoletaevaVera/poletaevavera)
+ИВТ       | ИТ-32БО  | Полетаева Вера Михайловна         | /   | /   |     | [PoletaevaVera/poletaevavera](https://github.com/PoletaevaVera/poletaevavera)
 ИВТ       | ИТ-32БО  | Ратников Егор                     | +   | +   | +   | [Horaigo/web-prog](https://github.com/Horaigo/web-prog)
 ИВТ       | ИТ-32БО  | Сурикова Елена Евгеньевна         | +   | +   | +   | [SurikovaElena/Surikova1](https://github.com/SurikovaElena/Surikova1)
 ИВТ       | ИТ-32БО  | Яблоков Евгений                   | +   |     |     | [QWERXman/web](https://github.com/QWERXman/web)
