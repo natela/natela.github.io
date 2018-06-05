@@ -20,7 +20,7 @@
 ИВТ       | ИТ-32БО  | Полетаева Вера Михайловна         | /   | /   |     | [PoletaevaVera/poletaevavera](https://github.com/PoletaevaVera/poletaevavera)
 ИВТ       | ИТ-32БО  | Ратников Егор                     | +   | +   | +   | [Horaigo/web-prog](https://github.com/Horaigo/web-prog)
 ИВТ       | ИТ-32БО  | Сурикова Елена Евгеньевна         | +   | +   | +   | [SurikovaElena/Surikova1](https://github.com/SurikovaElena/Surikova1)
-ИВТ       | ИТ-32БО  | Яблоков Евгений                   | +   |     |     | [QWERXman/web](https://github.com/QWERXman/web)
+ИВТ       | ИТ-32БО  | Яблоков Евгений                   | +   | /   | +   | [QWERXman/web](https://github.com/QWERXman/web)
 ИВТ       | ПИЭ-31БО | Езжев Никита                      | +   | +   | +   | [EzzhevNikita/web_development](https://github.com/EzzhevNikita/web_development)
 ИВТ       | ПИЭ-31БО | Пелёвин Михаил                    | +   | +   | +   | [michael-pelevin/webdevelopment](https://github.com/michael-pelevin/webdevelopment)
 ИВТ       | ПИЭ-31БО | Титова Елизавета Михайловна       | +   | +   | +   | [Elizabeth-Titova/MyLab](https://github.com/Elizabeth-Titova/MyLab)
