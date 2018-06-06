@@ -6,7 +6,7 @@
 ИВТ       | ИВТ-11МО | Игнатуша Антон Александрович      | /   | /   | 5   | [toxoxa/web-development](https://github.com/toxoxa/web-development)
 ИВТ       | ИВТ-11МО | Карабанова Наталия Борисовна      | +   | +   | 5   | [n-karabanova/new_project](https://github.com/n-karabanova/new_project)
 ИВТ       | ИВТ-11МО | Коваленко Даниил Валерьевич       |     |     |     | [kovalenkodaniil/web](https://github.com/kovalenkodaniil/web)
-ИВТ       | ИВТ-11МО | Малов Максим Андреевич            | /   | /   |     | [Maksim-Malov/web](https://github.com/Maksim-Malov/web)
+ИВТ       | ИВТ-11МО | Малов Максим Андреевич            | /   | /   | 2/2 | [Maksim-Malov/web](https://github.com/Maksim-Malov/web)
 ИВТ       | ИВТ-11МО | Михайлова Мария Александровна     |     |     |     | [mikhaylova/web](https://github.com/mikhaylova/web)
 ИВТ       | ИВТ-11МО | Никитин Евгений Сергеевич         | +   | +   | 5   | [Phant76/web-lessons](https://github.com/Phant76/web-lessons)
 ИВТ       | ИВТ-11МО | Павлова Ксения Владимировна       | +   | +   | 5   | [Ksu-nya/project_1](https://github.com/Ksu-nya/project_1)
