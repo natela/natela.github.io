@@ -9,7 +9,6 @@
 ИВТ       | ИВТ-11МО | Малов Максим Андреевич            | /   | /   | 2/2 | [Maksim-Malov/web](https://github.com/Maksim-Malov/web)
 ИВТ       | ИВТ-11МО | Никитин Евгений Сергеевич         | +   | +   | 5   | [Phant76/web-lessons](https://github.com/Phant76/web-lessons)
 ИВТ       | ИВТ-11МО | Павлова Ксения Владимировна       | +   | +   | 5   | [Ksu-nya/project_1](https://github.com/Ksu-nya/project_1)
-ИВТ       | ИВТ-11МО | Смирнова Диана Денисовна          |     |     |     | [dianasmde/web-programming](https://github.com/dianasmde/web-programming)
 ИВТ       | ИВТ-11МО | Торопова Анастасия Дмитриевна     | +   | +   | 5   | [Anastasiya-T/web-application](https://github.com/Anastasiya-T/web-application)
 ИВТ       | ИТ-11МО  | Горишный Алексей Сергеевич        | +   | +   | +   | [0x414c/webdev-course-2018](https://github.com/0x414c/webdev-course-2018)
 ИВТ       | ИТ-11МО  | Кашин Олег Алексеевич             | /   | /   | +   | [amig03/Web_development](https://github.com/amig03/Web_development)
